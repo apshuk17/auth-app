@@ -6,9 +6,25 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <aup-root>Loading...</aup-root>
+  <app-root>Loading...</app-root>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB55V32w1TgRhZAL9QPGlT5q5FOzq8hKWM",
+    authDomain: "auth-app-da030.firebaseapp.com",
+    databaseURL: "https://auth-app-da030.firebaseio.com",
+    storageBucket: "auth-app-da030.appspot.com",
+    messagingSenderId: "79744090839"
+  };
+  firebase.initializeApp(config);
+</script>
+
 </body>
 </html>
